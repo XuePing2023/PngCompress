@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "name": "Debug TS",
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": ["-r", "ts-node/register"],
+            "internalConsoleOptions": "openOnSessionStart",
+            "skipFiles": ["<node_internals>/**"],
+            "program": "./index.ts"
+        }
+    ]
+}
